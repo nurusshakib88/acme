@@ -1,0 +1,148 @@
+/*header start*/
+header {
+	background-color: #34424A;
+}
+.menu ul li a {
+	text-transform: uppercase;
+	margin-right: 15px;
+	font-weight: 600;
+	transition: .3s;a
+}
+.menu ul li .active {
+	color: #ED4C22 !important;
+}
+.menu ul li a:hover {
+	color: #ED4C22 !important;
+}
+
+
+.logo {
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff !important;
+}
+.logo span {
+	color: #ED4C22;
+}
+/*header end*/
+
+
+/*banner start*/
+
+.banner {
+	background-image: url(../images/banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+	padding: 100px 0;
+}
+
+.banner::after {
+	content: "";
+	position: absolute;
+	background-color: blue;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	filter: opacity(60%) brightness(.3);
+
+	}
+
+.banner_text {	
+	position: relative;
+	z-index: 999 !important;
+	color: #fff;
+	padding: 20px 5px;
+}
+.banner_text h1 {
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+.banner_text p {
+	font-size: 18px;
+}
+/*banner end*/
+
+
+/*newsletter*/
+.newsletter {
+	background-color: #34424A;
+	padding: 40px 0;
+}
+
+.news_text h1 {
+	font-size: 30px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.s_form {
+	background-color: #fff;
+}
+.s_mail, .s_submit {	
+	margin: 0 !important;
+	background-color: transparent;
+	border: none;
+	padding: 10px;
+}
+.s_submit {
+	background-color: red;
+	color: #fff;
+	font-weight: 700;
+}
+
+
+/*newletter*/
+
+/*technology*/
+
+.technology {
+	padding: 20px 0;
+}
+
+
+
+.t_single {
+	text-align: center;
+	padding: 20px;
+}
+
+.t_single img {
+	width: 30% !important;
+}
+.t_single h2 {
+	margin: 10px 0;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+footer {
+	background-color: #ED4C22;
+	margin: 0;
+	padding: 30px 0;
+}
+
+.copyright {
+	margin: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	padding: 0;
+}
+.c_link {
+	text-decoration: none;
+	color: #fff;
+	transition: .3s;
+}
+.c_link:hover {
+	color: #33424A;
+}
+
+input:focus {
+	outline: none;
+	box-shadow: none;
+}
